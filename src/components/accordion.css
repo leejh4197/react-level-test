@@ -1,0 +1,27 @@
+.accordionBox {
+  margin: 0 auto;
+  height: 100%;
+  width: 700px;
+  background: violet;
+  padding: 20px;
+  border-radius: 6px;
+  border: 1px solid #9de2de;
+  background-color: #f1fcfb;
+}
+.box {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.titleWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box h3 {
+  text-align: start;
+}
+.box p {
+  text-align: start;
+}
